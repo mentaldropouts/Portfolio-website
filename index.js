@@ -47,7 +47,7 @@ app.use((req,res) => {
 });
 
 
-const port = 4000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => {
-console.log('app is listening on port 3000');
+console.log('app is listening on enviorment variable of port');
 });

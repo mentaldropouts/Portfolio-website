@@ -10,12 +10,5 @@ res.render('landing');
 .post((req,res)=>{
 });
 
-// router.route('/gallery')   
-// .get((req,res)=>{
-// console.log("gallery was accessed");
-// res.render('gallery');
-// });
-
-
 
 module.exports = router;

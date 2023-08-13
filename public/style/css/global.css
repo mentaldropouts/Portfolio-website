@@ -37,35 +37,25 @@ body{
 
 #third{
     font-family: 'Ubuntu', sans-serif;
-    text-align: right;
+    position: relative;
+    /* backup size */
     font-size: 10px;
     font-size:6vw;
-    font-weight: normal;
-    font-stretch: expanded;
-    text-decoration:none;
-    text-align: left;
+    text-decoration: none;
     color: black;
-    
-    
 }
 
 #third:hover{
     color: white;  
-    text-align: center;
-    transition: color 1s ease-out 30ms;
-    transition: text-align 1s;
+    transition: color 1s ease-out 100ms;
 }   
-
 
 /* Layouts */
 .row {
-    text-align: center;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     padding: 2px;
-    /* gap: 10px; */
-    /* background-color: black; */
 }
 
 .container-fluid {
@@ -80,6 +70,10 @@ body{
     background-color: #2196F3;
     padding: 10px;
 } 
+
+#titleRow{
+    background-color: black;
+}
 
 /* For mobile phones: */
 [class*="col-"] {width: 100%;}
@@ -101,7 +95,7 @@ body{
 
     #first {font-size: 8vw; text-align: justify;}
     #second {font-size: 6vw; text-align: justify;}
-    #third {font-size: 6vw;}
+    #third {font-size: 6vw; }
 
 
 }
@@ -124,4 +118,5 @@ body{
     #first {font-size: 6vw; text-align: justify;}
     #second {font-size: 4vw; text-align: justify;}
     #third {font-size: 4vw; text-align: justify;}
+    #third:hover{padding-left: 500px; transition: padding-left 1s ease-out 30ms;}
 }

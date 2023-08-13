@@ -1,24 +1,39 @@
-/* Setting Row to Global */
-#titleRow{
-  background-color: black;
-}
 #resumeButton{
   background-color: rgb(255, 250, 93);
 }
 
+#resumeButton:hover{
+  background-image: linear-gradient(to right, rgb(255, 200, 93), rgb(255, 250, 93));
+}
+
 #transcriptButton{
-  background-color: rgb(255, 200, 93)
+  background-color: rgb(255, 200, 93);
+}
+
+#transcriptButton:hover{
+  background-image: linear-gradient(to right, rgb(255, 150, 93), rgb(255, 200, 93));
 }
 
 #githubButton{
   background-color: rgb(255, 150, 93);
 }
 
-#linkedinButton{
-  background-color: rgb(255, 100, 93)
+#githubButton:hover{
+  background-image: linear-gradient(to right,  rgb(255, 100, 93), rgb(255, 150, 93));
 }
 
+#linkedinButton{
+  background-color: rgb(255, 100, 93);
+}
+
+#linkedinButton:hover{
+  background-image: linear-gradient(to right,rgb(255, 50, 93), rgb(255, 100, 93) );
+}
 
 #instagramButton{
   background-color: rgb(255, 50, 93);
+}
+
+#linkedinButton:hover{
+  background-image: linear-gradient(to right,rgb(255,0,93), rgb(255, 50, 93));
 }

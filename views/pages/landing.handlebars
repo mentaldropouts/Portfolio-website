@@ -7,60 +7,40 @@
     <body>
         <div class="container-fluid text-center">
 
-            <div class="row justify-content-center" id="titleRow">
-                <div class="col">
-                    <div id="first">TAYLOR PAYNE</div>
-                    <div id="second">computer scientist</div>
-                    <div id="second">graphic designer</div>
-                </div>
+            <div class="row justify-content-center" id="pageRow">
+                {{!-- <div class="col"> --}}
+                    <div id="first">{{name}}</div>
+                    <div id="second">{{title1}}</div>
+                    <div id="second">{{title2}}</div>
+                {{!-- </div> --}}
             
+
             <div class="row content justify-content-center" id="resumeButton">
-                <a style="text-decoration: none;" href="./pdf/TaylorPayneResume.pdf" download="TaylorPayneResume">
-                    <div class="col">
-                        <div id="third">Resume</div>
-                    </div>
+                <a style="text-decoration: none;" href={{button1.url}} download="TaylorPayneResume">
+                        <div id="third">{{button1.text}}</div>
                 </a>
             </div>
 
             <div class="row contentjustify-content-center" id="transcriptButton">
-                <a style="text-decoration: none" href="./pdf/Transcript.pdf" download="Transcript">
-                    <div class="col">
-                        <div id="third">Transcript</div>
-                    </div>
+                <a style="text-decoration: none;" href={{button2.url}} download="Transcript">
+                        <div id="third">{{button2.text}}</div>
                 </a>
             </div>
 
             <div class="row content justify-content-center" id="githubButton">
-                <a style="text-decoration: none" href="https://github.com/mentaldropouts">
-                    <div class="col">
-                            <div id="third">Git Hub</div>
-                    </div>
+                <a style="text-decoration: none" href={{button3.url}}>
+                            <div id="third">{{button3.text}}</div>
                 </a>
             </div>
 
              <div class="row content justify-content-center" id="linkedinButton">
-                <a style="text-decoration: none" href="https://www.linkedin.com/in/taylorpaynedev/">
-                    <div class="col">
-                        <div id="third">Linkedin</div>
-                    </div>
+                <a style="text-decoration: none" href={{button4.url}}>
+                        <div id="third">{{button4.text}}</div>
                 </a>
             </div>
         
-            <div class="row content justify-content-center" id="instagramButton">
-                <a style="text-decoration: none" href="https://www.instagram.com/mentaldropouts/?hl=en">
-                    <div class="col">
-                        <div id="third">Instagram</div>
-                    </div>
-                </a>
-            </div>
-
             {{!-- Black Footer --}}
-            <div class="row content justify-content-center">
-                <div class="col">
-                </div>
-            </div>
-
-
+            <div class="row content justify-content-center"></div>
         </div>
     </body>
 </html>

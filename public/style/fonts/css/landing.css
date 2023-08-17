@@ -1,0 +1,45 @@
+#resumeButton{
+  /* background-color: rgb(255, 250, 93); */
+  background-color: #FFFFF3;
+}
+
+#resumeButton:hover{
+  background-image: linear-gradient(to right, rgb(255, 200, 93), rgb(255, 250, 93));
+}
+
+#transcriptButton{
+  /* background-color: rgb(255, 200, 93); */
+  background-color: #FFFFF3;
+}
+
+#transcriptButton:hover{
+  background-image: linear-gradient(to right, rgb(255, 150, 93), rgb(255, 200, 93));
+}
+
+#githubButton{
+  /* background-color: rgb(255, 150, 93); */
+  background-color: #FFFFF3;
+}
+
+#githubButton:hover{
+  background-image: linear-gradient(to right,  rgb(255, 100, 93), rgb(255, 150, 93));
+}
+
+#linkedinButton{
+  /* background-color: rgb(255, 100, 93); */
+  background-color: #FFFFF3;
+}
+
+#linkedinButton:hover{
+  background-image: linear-gradient(to right,rgb(255, 50, 93), rgb(255, 100, 93) );
+  background-color: #FFFFF3;
+}
+
+#instagramButton{
+  /* background-color: rgb(255, 50, 93); */
+  background-color: #FFFFF3;
+}
+
+#linkedinButton:hover{
+  background-image: linear-gradient(to right,rgb(255,0,93), rgb(255, 50, 93));
+}

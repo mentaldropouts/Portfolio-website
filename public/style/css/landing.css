@@ -1,5 +1,6 @@
 #resumeButton{
-  background-color: rgb(255, 250, 93);
+  /* background-color: rgb(255, 250, 93); */
+  background-color: #FFFFF3;
 }
 
 #resumeButton:hover{
@@ -7,7 +8,8 @@
 }
 
 #transcriptButton{
-  background-color: rgb(255, 200, 93);
+  /* background-color: rgb(255, 200, 93); */
+  background-color: #FFFFF3;
 }
 
 #transcriptButton:hover{
@@ -15,7 +17,8 @@
 }
 
 #githubButton{
-  background-color: rgb(255, 150, 93);
+  /* background-color: rgb(255, 150, 93); */
+  background-color: #FFFFF3;
 }
 
 #githubButton:hover{
@@ -23,7 +26,8 @@
 }
 
 #linkedinButton{
-  background-color: rgb(255, 100, 93);
+  /* background-color: rgb(255, 100, 93); */
+  background-color: #FFFFF3;
 }
 
 #linkedinButton:hover{
@@ -31,7 +35,8 @@
 }
 
 #instagramButton{
-  background-color: rgb(255, 50, 93);
+  /* background-color: rgb(255, 50, 93); */
+  background-color: #FFFFF3;
 }
 
 #linkedinButton:hover{

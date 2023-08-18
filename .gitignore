@@ -1,0 +1,4 @@
+# Ignoring everything in node_modules
+**/node_modules
+# Ignoring everthing in packages
+**/packages

@@ -7,7 +7,7 @@ router.route('/')
 console.log("Home was accessed");
 res.render('landing',{
         name: 'TAYLOR PAYNE',
-        title1: 'computer scientist',
+        title1: 'computer science student at the Universtiy of Kentucky',
         title2: 'graphic designer',
         button1: {
                 text: 'Resume',

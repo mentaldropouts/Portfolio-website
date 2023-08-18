@@ -6,6 +6,7 @@ body{
     background-color: #FFFFF3;
 }
 
+
 /* For the Resume */
 .container {
     position: relative;
@@ -14,25 +15,35 @@ body{
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
   }
 
+.sep{
+    width: 5%;
+    color: black;
+    size: 50px;
+}
+.headContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+}
+
 /* Fonts */
 #first{
     font-family: 'Unbounded', cursive;
-    word-spacing: 10%;
     height: fit-content;
-    width: fit-content;
-    padding: 10px;
-    margin: 10px;
-    align-items: center;
-    font-size: 16px;
-    font-size: 7vw;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    text-align: center;
+    font-size:7vw;
     font-weight: bold;
 
   }
 #second{
     font-family: 'Source Code Pro', monospace;
-    word-spacing:inherit;
+
+    height: fit-content;
+    width: fit-content;
     line-height: 90%;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: normal;
     padding: 10px;
 }
@@ -40,6 +51,7 @@ body{
 #third{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
+    padding-bottom: auto;
     /* backup size */
     font-size: 10px;
     font-size:6vw;
@@ -49,7 +61,7 @@ body{
 
 #third:hover{
     color: white;  
-    transition: color 100ms ease-out 50ms;
+    transition: color 50ms ease-out 10ms;
 }   
 
 /* Layouts */
@@ -57,10 +69,9 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
+    padding: auto;
+    margin: 2%;
 }
-
 .container-fluid {
     height: 100%;
     flex: 1 1 auto;
@@ -121,5 +132,5 @@ body{
     #first {font-size: 6vw; text-align: justify;}
     #second {font-size: 4vw; text-align: justify;}
     #third {font-size: 4vw; text-align: justify;}
-    #third:hover{padding-left: 500px; transition: padding-left 1s ease-out 30ms;}
+    #third:hover{padding-left: 500px; transition: padding-left 500ms ease-out 30ms;}
 }

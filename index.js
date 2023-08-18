@@ -26,12 +26,6 @@ app.use(express.static('public/style/css'));
 app.use(express.static('public/style/fonts'));
 
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
-//Rendering the landing page
-// app.get('/', (req,res)=>{
-//     res.render('landing');
-// });
-//Using the static styles defined in public
-//Giving access to the routes
 app.use(require('./router'));
 
 
@@ -47,7 +41,7 @@ app.use((req,res) => {
 });
 
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 app.listen(port, () => {
 console.log('app is listening on enviorment variable of port');
 });

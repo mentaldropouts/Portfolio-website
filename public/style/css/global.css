@@ -6,6 +6,9 @@ body{
     background-color: #FFFFF3;
 }
 
+a{
+    width: fit-content;
+}
 
 /* For the Resume */
 .container {
@@ -51,6 +54,8 @@ body{
 #third{
     font-family: 'Ubuntu', sans-serif;
     position: relative;
+    width:100%;
+    height: 100%;
     padding-bottom: auto;
     /* backup size */
     font-size: 10px;
@@ -69,8 +74,12 @@ body{
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    padding: auto;
-    margin: 2%;
+    min-width: 100%;
+    gap: 5%;
+    /* min-height: 20%; */
+    /* padding: auto; */
+    /* margin: 2%; */
+
 }
 .container-fluid {
     height: 100%;
@@ -90,6 +99,7 @@ body{
 }
 
 /* For mobile phones: */
+
 [class*="col-"] {width: 100%;}
 [class*="row"] {min-height: 100%;}
 @media only screen and (min-width: 600px) {

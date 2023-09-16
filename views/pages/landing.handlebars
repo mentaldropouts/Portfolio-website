@@ -1,0 +1,56 @@
+<html>
+    <head>
+        {{!-- Animations CSS --}}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="./style/css/landing.css">
+    </head>
+    <body>
+                <div class="mainContainer">
+                    <div class="js-type" id="first">{{name}}</div>
+                    <div id="second">{{title1}} | {{title2}}</div>
+                     <hr class="sep"></hr>
+                </div>
+                 <div class="secContainer">
+                   
+                    <div id="secondDesc">
+                        With 4 years of experience in Computer Science my passions have found themselves in Web Design, Web Development,
+                        Image Manipulation, and Software Engineering. My interests stem from my time as a Graphic Designer. When I became 
+                        enthralled with the inner workings of Adobe Photoshop. Which led to my first attempt at back-end development with
+                        a pixel-drifting program that I wrote in python during my freshman year. Since then I have been learning more and
+                        more about project development outside of classes and developing this website. When I am not learning about programming
+                        I am probably playing video games with my friends, drawing, or reading.
+                    </div>
+                </div>
+        <div class="mainContainer">
+            <div class="row" id="resumeButton">
+                <a style="text-decoration: none;" href={{button1.url}} download="TaylorPayneResume" id="third">              
+                    {{button1.text}}
+                </a>
+            </div>
+            <div class="row" id="transcriptButton">
+                <a style="text-decoration: none;" href={{button2.url}} download="Transcript" id="third"> 
+                    {{button2.text}}
+                </a>
+            </div>
+            <div class="row" id="githubButton">
+                <a style="text-decoration: none" href={{button3.url}} id="third">
+                    {{button3.text}}
+                </a>
+            </div>
+             <div class="row" id="linkedinButton">
+                <a style="text-decoration: none" href={{button4.url}} id="third">
+                    {{button4.text}}
+                </a>
+            </div>
+        </div>
+
+     
+            <div class="footer">
+                <div class="row" id="EmailButton">
+                <a style="text-decoration: none" href = "mailto: taylorpaynedev@gmail.com" id="third">Contact Me</a>
+                </div>
+        </div>
+        </div>
+
+    </body>
+</html>

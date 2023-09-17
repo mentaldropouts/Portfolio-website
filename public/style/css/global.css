@@ -1,52 +1,32 @@
-:root{
+/* Root Variables */
+:root {
     --primary_background: #FFFFF3;
-    --first_size: 6vw;
+    --first_size: 8vw;
     --secondSubHead_size: 3vw;
-    --second_size: 2vw;
-    --third_size: 4vw;
+    --second_size: 5vw;
+    --third_size: 10vw;
 }
 
-html{
+/* Global Styles */
+html, body {
     background-color: var(--primary_background);
     width: 100%;
     height: 100%;
 }
 
-body{
-    background-color: var(--primary_background);
-    min-height: 100vh;
-    /* display: flex; */
-    /* flex-direction: column; */
-}
-
-a{
+a {
     height: inherit;
     width: 100%;
-
 }
 
-/* For the Resume */
-.container-fluid {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    align-content: center;
-    flex: 1 1 auto;
-}
-
-.sep{
+.sep {
     height: fit-content;
-    width: fit-content;
     width: 100%;
     color: black;
-    opacity: 100%;
 }
 
-.mainContainer{
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+.mainContainer {
+    padding: 1%;
     height: fit-content;
     float: none;
     position: relative;
@@ -54,53 +34,54 @@ a{
     background-color: var(--primary_background);
 }
 
-.secContainer{
+.secContainer {
     display: flex;
     height: fit-content;
     position: relative;
-    background-color:whitesmoke ;
+    background-color: whitesmoke;
 }
 
-/* Fonts */
-#first{
-    /* font-family: 'Ubuntu', sans-serif; */
+.titleCont {
+    display: inline-box;
+}
+
+/* Fonts and Text Styles */
+#first {
     font-family: 'aeroportmono', monospace;
     font-size: var(--first_size);
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 0 5%;
     letter-spacing: 34;
-  }
-
-#second{
-   /* font-family: 'Unbounded', cursive; */
-    font-size: var(--secondSubHead_size);
-    padding-left: 5%;
-    padding-right: 5%;
+    text-align: center;
 }
 
-#secondDesc{
-    /* font-family: 'Unbounded', cursive; */
-     font-size: var(--second_size);
-     padding: 5%;
- }
+#second, #secondDesc {
+    padding: 0 5%;
+    text-align: center;
+}
 
-#third{
+#second {
+    font-size: var(--secondSubHead_size);
+}
+
+#secondDesc {
+    font-size: var(--second_size);
+}
+
+#third {
     font-family: 'Source Code Pro', monospace;
     font-size: var(--third_size);
     position: relative;
-    width:100%;
-    padding-bottom: auto;
-    padding-left: 5%;
-    padding-right: 5%;
+    width: 100%;
+    padding: 0 5%;
     text-decoration: none;
     color: black;
+    text-align: center;
 }
 
-#third:hover{
-    color: white;  
-    transition: color 50ms ease-out 10ms;   /* Moving the letters */
-}   
-
+#third:hover {
+    color: white;
+    transition: color 50ms ease-out 10ms;
+}
 
 /* Layouts */
 .row {
@@ -108,57 +89,50 @@ a{
     min-width: 100%;
 }
 
-.footer{
+.footer {
     margin-top: auto;
-    
     background-color: var(--primary_background);
-    /* box-sizing: border-box; */
-    height: 100%;
+    height: 10%;
     width: 100%;
 }
-/* For mobile phones: */
 
-[class*="col-"] {width: 100%;}
-[class*="row"] {min-height: 100%;}
+/* Responsive Designs */
 @media only screen and (min-width: 600px) {
-    /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
-
-    #first {font-size: 6vw; text-align: justify;}
-    #second {font-size: 3vw; text-align: justify;}
-    #third {font-size: 6vw; }
-
-
+    #first, #second, #secondDesc {
+        text-align: justify;
+    }
+    #first {
+        font-size: 6vw;
+    }
+    #second {
+        font-size: 3vw;
+    }
+    #secondDesc {
+        font-size: 2.5vw;
+    }
+    #third {
+        font-size: 6vw;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-
-    #first {font-size: 6vw; text-align: justify;}
-    #second {font-size: 3vw; text-align: justify;}
-    #third {font-size: 6vw; text-align: justify;}
-    #third:hover{padding-left: 10%; transition: padding-left 100ms ease-out 30ms;}
+    #first, #second, #secondDesc, #third {
+        text-align: justify;
+    }
+    #first {
+        font-size: 6vw;
+    }
+    #second {
+        font-size: 3vw;
+    }
+    #secondDesc {
+        font-size: 2vw;
+    }
+    #third {
+        font-size: 6vw;
+    }
+    #third:hover {
+        padding-left: 10%;
+        transition: padding-left 100ms ease-out 30ms;
+    }
 }

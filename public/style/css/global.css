@@ -28,7 +28,6 @@ a {
 .mainContainer {
     padding: 1%;
     height: fit-content;
-    float: none;
     position: relative;
     align-items: center;
     background-color: var(--primary_background);
@@ -41,7 +40,7 @@ a {
     width: fit-content;
     position: relative;
     text-align: left;
-    background-image: linear-gradient(to right, rgb(255, 250, 93), rgb(255, 300, 93));
+    background-color: var(--primary_background);
     padding-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
@@ -96,7 +95,7 @@ a {
 .footer {
     margin-top: auto;
     background-color: var(--primary_background);
-    height: 10%;
+    height: 100%;
     width: 100%;
 }
 

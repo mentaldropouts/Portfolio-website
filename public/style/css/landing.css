@@ -53,6 +53,7 @@
 }
 
 
+/* Color Blocks */
 .boxV{
   width: 100%;
   height: 400px;
@@ -77,10 +78,11 @@
  background-image: linear-gradient(to bottom,var(--roGrad));
 }
 
-
 .lineInnV{
  width: 33.3%;
  height: 100%;
  display: inline-block;
  background-image: linear-gradient(to bottom,var(--rrGrad));
 }
+
+

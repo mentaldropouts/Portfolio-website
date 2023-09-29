@@ -34,4 +34,10 @@ console.log("gallery was accessed");
 res.render('gallery');
 });
 
+router.route('/temp')   
+.get((req,res)=>{
+console.log("gallery was accessed");
+res.render('temp');
+});
+
 module.exports = router;

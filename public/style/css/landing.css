@@ -22,7 +22,7 @@ body {
 
 #resumeButton:hover{
   /* background-image: linear-gradient(to right,var(--yyGrad)); */
-  background-image: linear-gradient(to right,var(--roGrad));
+  background-image: linear-gradient(to right,var(--rrGrad));
 
 }
 
@@ -35,7 +35,7 @@ body {
 
 #transcriptButton:hover{
   /* background-image: linear-gradient(to right,var(--yoGrad)); */
-  background-image: linear-gradient(to right,var(--roGrad));
+  background-image: linear-gradient(to right,var(--rrGrad));
 
 }
 
@@ -47,7 +47,7 @@ body {
 }
 
 #githubButton:hover{
-  background-image: linear-gradient(to right,var(--roGrad));
+  background-image: linear-gradient(to right,var(--rrGrad));
 }
 
 #linkedinButton{
@@ -59,7 +59,7 @@ body {
 
 #linkedinButton:hover{
   /* background-image: linear-gradient(to right,var(--rrGrad)); */
-  background-image: linear-gradient(to right,var(--roGrad));
+  background-image: linear-gradient(to right,var(--rrGrad));
 
 }
 
@@ -72,7 +72,7 @@ body {
 
 #EmailButton:hover{
   /* background-image: linear-gradient(to right,var(--drrGrad)); */
-  background-image: linear-gradient(to right,var(--roGrad));
+  background-image: linear-gradient(to right,var(--rrGrad));
 
 }
 
@@ -92,14 +92,16 @@ body {
  height: 100%;
  gap: 0;
  display: inline-block;
- background-image: linear-gradient(to bottom,var(--yyGrad));
+ /* background-image: linear-gradient(to bottom,var(--yyGrad)); */
+ background-image: linear-gradient(to bottom,var(--rrGrad));
 }
 
 .lineMidV{
  width: 33.3%;
  height: 100%;
  display: inline-block;
- background-image: linear-gradient(to bottom,var(--roGrad));
+ /* background-image: linear-gradient(to bottom,var(--roGrad)); */
+ background-image: linear-gradient(to bottom,var(--rrGrad)); 
 }
 
 .lineInnV{

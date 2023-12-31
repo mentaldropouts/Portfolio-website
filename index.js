@@ -1,7 +1,7 @@
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
-const express = require('express');
 const path = require('path');
+const express = require('express');
 const app = express();
 
 // Setting up the instance of handlebars
@@ -28,7 +28,6 @@ app.use(express.static('public/style/fonts'));
 app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
 app.use(require('./router'));
 
-
 //Catching all non-existent pages
 app.use((req,res) => {
     res.render('404', {
@@ -39,7 +38,6 @@ app.use((req,res) => {
         }
     });
 });
-
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {

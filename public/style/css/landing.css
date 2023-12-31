@@ -1,7 +1,7 @@
 :root {
   --button_height: 6vw;
-  --bg: #0A0A0A;
-  --text: #fff;
+  --bg: #fff;
+  --text: #000;
   --yyGrad: rgb(255, 200, 93), rgb(255, 250, 93);
   --yoGrad:  rgb(255, 150, 93), rgb(255, 200, 93);
   --roGrad:  rgb(255, 100, 93), rgb(255, 150, 93);
@@ -11,6 +11,11 @@
 
 body {
   background-color: var(--bg);
+  color: var(--text);
+}
+
+body.dark-mode{
+  background-color: #0A0A0A;
   color: #fff;
 }
 

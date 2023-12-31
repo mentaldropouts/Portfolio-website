@@ -10,15 +10,14 @@
 }
 
 :root{
-    --bg: #0A0A0A;
-    --text: #fff;
+    --bg: #fff;
+    --text: #000;
     --first_size: 8vw;
     --secondSubHead_size: 3vw;
     --second_size: 2vw;
     --third_size: 5vw;
 
 }
-
 
 /* Global Styles */
 html, body {
@@ -28,6 +27,11 @@ html, body {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+}
+
+body.dark-mode{
+  background-color: #0A0A0A;
+  color: #fff;
 }
 
 head {
@@ -50,9 +54,7 @@ a {
 
 .mainContainer {
     /* Sticking it the top of the page     */
-    /* position: sticky; */
     top: 0;
-
     padding-left: 3%;
     padding-right: 3%;
     height: fit-content;

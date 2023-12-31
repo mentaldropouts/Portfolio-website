@@ -1,6 +1,7 @@
 :root {
   --button_height: 6vw;
-  --primary_background: #FFFFF3;
+  --bg: #fff;
+  --text: #000;
   --yyGrad: rgb(255, 200, 93), rgb(255, 250, 93);
   --yoGrad:  rgb(255, 150, 93), rgb(255, 200, 93);
   --roGrad:  rgb(255, 100, 93), rgb(255, 150, 93);
@@ -8,25 +9,29 @@
   --drrGrad: rgb(255,0,93), rgb(255, 50, 93);
 }
 #resumeButton{
-  background-color: var(--primary_background);
+  background-color: var(--bg);
   min-height: var(--button_height);
 }
 
 #resumeButton:hover{
-  background-image: linear-gradient(to right,var(--yyGrad));
+  /* background-image: linear-gradient(to right,var(--yyGrad)); */
+  background-image: linear-gradient(to right,var(--roGrad));
+
 }
 
 #transcriptButton{
-  background-color: var(--primary_background);
+  background-color: var(--bg);
   min-height: var(--button_height);
 }
 
 #transcriptButton:hover{
-  background-image: linear-gradient(to right,var(--yoGrad));
+  /* background-image: linear-gradient(to right,var(--yoGrad)); */
+  background-image: linear-gradient(to right,var(--roGrad));
+
 }
 
 #githubButton{
-  background-color: var(--primary_background);
+  background-color: var(--bg);
   min-height: var(--button_height);
 }
 
@@ -35,21 +40,25 @@
 }
 
 #linkedinButton{
-  background-color: var(--primary_background);
+  background-color: var(--bg);
   min-height: var(--button_height);
 }
 
 #linkedinButton:hover{
-  background-image: linear-gradient(to right,var(--rrGrad));
+  /* background-image: linear-gradient(to right,var(--rrGrad)); */
+  background-image: linear-gradient(to right,var(--roGrad));
+
 }
 
 #EmailButton{
-  background-color: var(--primary_background);
+  background-color: var(--bg);
   min-height: var(--button_height);
 }
 
 #EmailButton:hover{
-  background-image: linear-gradient(to right,var(--drrGrad));
+  /* background-image: linear-gradient(to right,var(--drrGrad)); */
+  background-image: linear-gradient(to right,var(--roGrad));
+
 }
 
 
@@ -59,7 +68,7 @@
   height: 400px;
   position: relative;
   display: flex;
-  background-color: blue;
+  /* background-color: blue; */
   content: ' ';
 }
 

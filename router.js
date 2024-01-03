@@ -7,8 +7,8 @@ router.route('/')
 console.log("Home was accessed");
 res.render('landing',{
         name: 'Taylor Payne',
-        title1: 'University of Kentucky',
-        title2: 'Senior Computer Science Student',
+        title1: 'UK',
+        title2: 'Computer Science Major',
         button1: {
                 text: 'Resume',
                 url: './pdf/TaylorPayneResume.pdf',

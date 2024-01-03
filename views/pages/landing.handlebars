@@ -3,22 +3,36 @@
         {{!-- Animations CSS --}}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./style/css/landing.css">
+        <script defer src="../../modeDetect.js"></script>
     </head>
-    <                <div class="mainContainer">
+                    <div class="mainContainer">
                     <div class="js-type" id="first">{{name}}</div>
                     <div id="second">{{title1}} | {{title2}}</div>
-                     <hr class="sep"></hr>
+                    <hr class="sep"></hr>
                 </div>
-                 <div c{{!-- lass="secContainer">
-                    <div id="secondDesc">
-                        With a passion for creating, my interests have found themselves in the Software Development
-                        and Web Development field. I have experience with React-Native, Express.js, QT and other popular
-                        frameworks. I am currently looking for a new-graduate position for when I graduate in May 2024 from 
-                        the University of Kentucky. Feel free to contact me if you want to develop togther, I am always open to 
-                        new projects!
+            <div class="mainContainer"> 
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a style='text-decoration: none;' href="https://github.com/mentaldropouts/collageApp" id="ProjectTitle">
+                                Collage Maker
+                            </a>
+                        </div>
                     </div>
                 </div>
-      --}}   <div class="mainContainer">
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <a style='text-decoration: none;' href="https://github.com/mentaldropouts/PokemonDeciderApp" id="ProjectTitle">
+                                Pokemon Decider App
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mainContainer">
             <div class="row" id="resumeButton">
                 <a style="text-decoration: none;" href={{button1.url}} download="TaylorPayneResume" id="third">         
                     {{button1.text}}
@@ -49,6 +63,5 @@
               
         </div>
         {{!-- </div> --}}
-
-ackground-color: #FFFFF3"></div>
+        </div>
         </div>

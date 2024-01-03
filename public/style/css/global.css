@@ -14,7 +14,7 @@
     --text: #000;
     --first_size: 8vw;
     --secondSubHead_size: 3vw;
-    --second_size: 2vw;
+    --second_size: 3vw;
     --third_size: 5vw;
 
 }
@@ -114,6 +114,19 @@ a {
     color: white;
     transition: color 50ms ease-out 10ms;
 }
+
+#ProjectTitle {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 5vw;
+    width: 100%;
+    padding: 3% 5%;
+    text-decoration: none;
+    color: var(--text);
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
 
 /* Layouts */
 .row {

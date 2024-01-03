@@ -12,6 +12,7 @@
 :root{
     --bg: #fff;
     --text: #000;
+    background-image: linear-gradient(to right,var(--rrGrad));
     --first_size: 8vw;
     --secondSubHead_size: 3vw;
     --second_size: 3vw;
@@ -115,13 +116,18 @@ a {
     transition: color 50ms ease-out 10ms;
 }
 
+.card {
+   background-image: linear-gradient(to right,var(--roGrad));
+   color: white;
+
+}
 #ProjectTitle {
     font-family: 'Source Code Pro', monospace;
     font-size: 5vw;
     width: 100%;
     padding: 3% 5%;
     text-decoration: none;
-    color: var(--text);
+    color: white;
     margin-top: auto;
     margin-bottom: auto;
 

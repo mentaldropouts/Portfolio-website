@@ -117,7 +117,7 @@ a {
 }
 
 .card {
-   background-image: linear-gradient(to right,var(--roGrad));
+   /* background-image: linear-gradient(to right,var(--roGrad)); */
    color: white;
 
 }

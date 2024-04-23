@@ -78,6 +78,11 @@ a {
     padding-bottom: 5%;
 }
 
+.portrait-container{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+  }
 /* Fonts and Text Styles */
 #first {
     font-family: 'aeroportmono', monospace;
@@ -177,6 +182,10 @@ a {
     }
     #secondDesc, #third {
       font-size: 14px;
+    }
+
+    .portrait-container{
+        display:none !important;
     }
   }
   

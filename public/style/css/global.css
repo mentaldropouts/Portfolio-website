@@ -174,15 +174,18 @@ a {
     }
     #first {
         font-size: 5vw;
+        text-align: center;
+
     }
     #second {
-        font-size: 3vw;
+        font-size: 2.5vw;
+        text-align: center;
     }
     #secondDesc {
         font-size: 3vw;
     }
     #third {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     #ProjectTitle {

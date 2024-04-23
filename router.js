@@ -18,9 +18,14 @@ res.render('landing',{
         },
         project2: {
                 title: 'Pokemon Decider Application',
-                desc: 'Using a Generative AI algorithm this application takes 5 Pokemon and picks the optimal 6th Pokemon. \
-                It analyzes strength and weaknesses of the current team along with overall stat composition to make these decisions. \
-                Built using a React.js frontend and a Flask backend.'
+                desc: 'This AI-powered application assists Pokemon trainers by recommending the optimal sixth Pokemon to add to their five-person team. \
+                 It analyzes the strengths, weaknesses, and stats of the team to suggest the best fit. Made with React frontend and Flask backend.'
+        },
+        project3: {
+                title: 'Lost in Light',
+                desc: 'Created for the 2022 64x64 game jam on itch.io, Lost in Light is a 3D exploration game built in Unity with C#. \
+                 Players control a small, feline creature navigating a low-resolution world while evading larger predators that lurk in the shadows. \
+                The game features mechanics like stealth, optional combat, character dialogue, and exploration, with all assets creeated by me using Procreate and Blender.',
         },
         button1: {
                 text: 'Resume',

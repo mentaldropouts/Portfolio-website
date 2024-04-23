@@ -10,6 +10,11 @@
                     <div id="second">{{title1}} | {{title2}}</div>
                     <hr class="sep"></hr>
                 </div>
+            {{!-- Project Header --}}
+            <div class="mainContainer">
+                <div id="first">Projects</div>
+            </div>
+
             <div class="mainContainer"> 
                 <div class="row">
                     <div class="card">
@@ -28,10 +33,29 @@
                         <a style='text-decoration: none;' href="https://github.com/mentaldropouts/PokemonDeciderApp" id="ProjectTitle">
                             {{project2.title}}
                         </a>
+                        <div class="card-body">
+                            {{project2.desc}}
+                        </div>  
                     </div>
                 </div>
+
+                <div class="row">
+                    <div class="card">
+                        <a style='text-decoration: none;' href="https://mentaldropouts.itch.io/lost-in-light-proto" id="ProjectTitle">
+                            {{project3.title}}
+                        </a>
+                        <div class="card-body">
+                            {{project3.desc}}
+                        </div>  
+                    </div>
+                </div>
+
             </div>
         </div>
+
+        <div class="mainContainer">
+                <div id="first" style="padding-top: 100px;">Links</div>
+            </div>
 
             <div class="mainContainer">
             <div class="row" id="resumeButton">
@@ -60,9 +84,9 @@
                 </div>
             </div>
      
-            <div class="footer">
+            
               
-        </div>
+            </div>
         {{!-- </div> --}}
         </div>
         </div>

@@ -13,11 +13,14 @@
     --bg: #fff;
     --text: #000;
     --red: linear-gradient(to right,var(--rrGrad));
-    --first_size: 2vw;
+    /* Heading Variables */
+    --first_size: 8vw;
     --secondSubHead_size: 3vw;
-    --second_size: 2vw;
-    --third_size: 2vw;
-
+    --second_size: 3vw;
+    --third_size: 5vw;
+    /* Card Font Variables */
+    --project_title_size: 3vw;
+    --project_description_size: 1.5vw;
 }
 
 /* Global Styles */
@@ -61,13 +64,10 @@ a {
     height: fit-content;
     align-items: center;
     background-color: var(--bg);
-    
 }
 
 .secContainer {
     /* display: flex; */
-    height: fit-content;
-    width: fit-content;
     position: relative;
     text-align: left;
     background-color: var(--bg);
@@ -120,25 +120,36 @@ a {
 .card {
     font-family: 'Source Code Pro', monospace;
     width: 100%;
+    /* overriding default values */
+    padding-left: 0% !important;
+    padding-right: 0% !important;
     
 }
 
 .card-body {
-    font-size: 2vw;
+    padding: 2% 5% !important;
+    font-size: var(--project_description_size);
     width: 100%; 
     height: fit-content;
 }
 
 #ProjectTitle {
     font-family: 'Source Code Pro', monospace;
-    font-size: 3vw;
+    font-size: var(--project_title_size);
     width: 100%;
     padding: 3% 5%;
     text-decoration: none;
+    
 
     margin-top: auto;
     margin-bottom: auto;
 
+}
+
+#ProjectTitle:hover {
+    color: white;
+    background-image: var(--red);
+    transition: color 50ms ease-out 10ms;
 }
 
 /* Layouts */
@@ -156,39 +167,46 @@ a {
 }
 
 /* Responsive Designs */
+/* ipad */
 @media only screen and (min-width: 600px) {
     #first, #second, #secondDesc {
         text-align: justify;
     }
     #first {
-        font-size: 6vw;
+        font-size: 5vw;
     }
     #second {
-        font-size: var(--second_size);
+        font-size: 3vw;
     }
     #secondDesc {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     #third {
-        font-size: 5vw;
+        font-size: 4vw;
+    }
+
+    #ProjectTitle {
+        font-size: 3vw;
     }
 }
 
+/* Computer Screen */
 @media only screen and (min-width: 768px) {
     #first, #second, #secondDesc, #third {
         text-align: justify;
     }
     #first {
-        font-size: 6vw;
+        font-size: 3vw;
     }
     #second {
-        font-size: var(--second_size);
+        font-size: 2vw
     }
     #secondDesc {
-        font-size: 2vw;
+        font-size: 1.5vw;
     }
     #third {
-        font-size: 5vw;
+        font-size: 2vw;
+        flex-direction: column;
     }
     #third:hover {
         padding-left: 10%;

@@ -13,10 +13,10 @@
     --bg: #fff;
     --text: #000;
     --red: linear-gradient(to right,var(--rrGrad));
-    --first_size: 8vw;
+    --first_size: 2vw;
     --secondSubHead_size: 3vw;
-    --second_size: 3vw;
-    --third_size: 5vw;
+    --second_size: 2vw;
+    --third_size: 2vw;
 
 }
 
@@ -124,14 +124,14 @@ a {
 }
 
 .card-body {
-    font-size: 3vw;
+    font-size: 2vw;
     width: 100%; 
     height: fit-content;
 }
 
 #ProjectTitle {
     font-family: 'Source Code Pro', monospace;
-    font-size: 5vw;
+    font-size: 3vw;
     width: 100%;
     padding: 3% 5%;
     text-decoration: none;

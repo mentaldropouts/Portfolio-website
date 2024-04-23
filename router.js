@@ -11,10 +11,16 @@ res.render('landing',{
         title2: 'Computer Science Major',
         project1: {
                 title: 'Collage Maker',
-                desc: 'Started during the winter break of my senior year of undergrad, I wanted to make an application \
+                desc: 'Started during the winter break of my Senior year at UK, I wanted to make an application \
                 that allowed me to make collages of me and friends without having to do all the manual work that comes with \
                 collages. This application strives to automate the process of gathering photos, removing the background, and \
-                placing images together all in one easy-to-use place.',
+                placing images together all in one easy-to-use place. Made completely in Python.',
+        },
+        project2: {
+                title: 'Pokemon Decider Application',
+                desc: 'Using a Generative AI algorithm this application takes 5 Pokemon and picks the optimal 6th Pokemon. \
+                It analyzes strength and weaknesses of the current team along with overall stat composition to make these decisions. \
+                Built using a React.js frontend and a Flask backend.'
         },
         button1: {
                 text: 'Resume',

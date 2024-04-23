@@ -5,14 +5,17 @@
         <link rel="stylesheet" href="./style/css/landing.css">
         <script defer src="../../modeDetect.js"></script>
     </head>
-                    <div class="mainContainer" style="flex-direction: row;">
+                    <div class="mainContainer" style="display: flex; flex-direction: row; ">
                         <div class="portrait-container">
-                            <img src="../public/images/portrait.jpeg" alt="Descriptive image alt text">
+                            <img src="../../public/images/portrait.jpeg" alt="Descriptive image alt text">
                         </div>    
-                    <div class="js-type" id="first">{{name}}</div>
-                    <div id="second">{{title1}} | {{title2}}</div>
-                    <hr class="sep"></hr>
-                </div>
+                        <div class="mainContainer">
+                            <div class="js-type" id="first">{{name}}</div>
+                            <div id="second">{{title1}} | {{title2}}</div>
+                            <hr class="sep"></hr>
+                        </div>
+                    </div>
+
             {{!-- Project Header --}}
             <div class="mainContainer">
                 <div id="first">Projects</div>

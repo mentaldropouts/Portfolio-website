@@ -17,10 +17,10 @@
     --first_size: 8vw;
     --secondSubHead_size: 3vw;
     --second_size: 3vw;
-    --third_size: 5vw;
+    --third_size: 4vw;
     /* Card Font Variables */
-    --project_title_size: 3vw;
-    --project_description_size: 1.5vw;
+    --project_title_size: 5vw;
+    --project_description_size: 3vw;
 }
 
 /* Global Styles */
@@ -128,14 +128,12 @@ a {
 
 .card-body {
     padding: 2% 5% !important;
-    font-size: var(--project_description_size);
     width: 100%; 
     height: fit-content;
 }
 
 #ProjectTitle {
     font-family: 'Source Code Pro', monospace;
-    font-size: var(--project_title_size);
     width: 100%;
     padding: 3% 5%;
     text-decoration: none;
@@ -166,55 +164,55 @@ a {
     content: '';
 }
 
-/* Responsive Designs */
-/* ipad */
-@media only screen and (min-width: 600px) {
-    #first, #second, #secondDesc {
-        text-align: justify;
-    }
+/* Mobile Styles (up to 600px) */
+@media only screen and (max-width: 600px) {
     #first {
-        font-size: 5vw;
-        text-align: center;
-
+      font-size: 18px; /* Use px for smaller screens */
+      text-align: center;
     }
-    #second {
-        font-size: 2.5vw;
-        text-align: center;
+    #second, #ProjectTitle{
+      font-size: 16px;
+      text-align: center;
     }
-    #secondDesc {
-        font-size: 3vw;
+    #secondDesc, #third {
+      font-size: 14px;
     }
-    #third {
-        font-size: 3vw;
+  }
+  
+  /* Tablet Styles (600px to 768px) */
+  @media only screen and (min-width: 600px) and (max-width: 768px) {
+    #first {
+      font-size: 20px;
     }
-
-    #ProjectTitle {
-        font-size: 3vw;
+    #second, #ProjectTitle {
+      font-size: 18px;
     }
-}
-
-/* Computer Screen */
-@media only screen and (min-width: 768px) {
+    #secondDesc, #third {
+      font-size: 16px;
+    }
+  }
+  
+  /* Desktop Styles (over 768px) */
+  @media only screen and (min-width: 768px) {
     #first, #second, #secondDesc, #third {
-        text-align: justify;
+      text-align: justify;
     }
     #first {
-        font-size: 3vw;
+      font-size: 3.0em;
     }
-    #second {
-        font-size: 2vw
+    #second, #ProjectTitle{
+      font-size: 2.0em;
     }
     #secondDesc {
-        font-size: 1.5vw;
+      font-size: 1.5em;
     }
     #third {
-        font-size: 2vw;
-        flex-direction: column;
+      font-size: 1.5em;
+      padding: 1% 8%;
+      display: flex; /* Use flexbox for layout */
+      flex-direction: column; /* Stack elements vertically */
     }
-    #third:hover {
-        padding-left: 10%;
-        transition: padding-left 100ms ease-out 30ms;
-    }
-}
+
+  }
 
 

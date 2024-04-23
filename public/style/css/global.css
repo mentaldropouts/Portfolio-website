@@ -64,6 +64,7 @@ a {
     height: fit-content;
     align-items: center;
     background-color: var(--bg);
+    width: 100%;
 }
 
 .secContainer {

@@ -9,6 +9,13 @@ res.render('landing',{
         name: 'Taylor Payne',
         title1: 'UK',
         title2: 'Computer Science Major',
+        project1: {
+                title: 'Collage Maker',
+                desc: 'Started during the winter break of my senior year of undergrad, I wanted to make an application \
+                that allowed me to make collages of me and friends without having to do all the manual work that comes with \
+                collages. This application strives to automate the process of gathering photos, removing the background, and \
+                placing images together all in one easy-to-use place.',
+        },
         button1: {
                 text: 'Resume',
                 url: './pdf/TaylorPayneResume.pdf',

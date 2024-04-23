@@ -116,18 +116,26 @@ a {
     transition: color 50ms ease-out 10ms;
 }
 
+/* title and description  */
 .card {
-   /* background-image: linear-gradient(to right,var(--roGrad)); */
-   color: white;
-
+    font-family: 'Source Code Pro', monospace;
+    width: 100%;
+    
 }
+
+.card-body {
+    font-size: 3vw;
+    width: 100%; 
+    height: fit-content;
+}
+
 #ProjectTitle {
     font-family: 'Source Code Pro', monospace;
     font-size: 5vw;
     width: 100%;
     padding: 3% 5%;
     text-decoration: none;
-    color: black;
+
     margin-top: auto;
     margin-bottom: auto;
 
@@ -137,7 +145,7 @@ a {
 .row {
     /* box-sizing: border-box; */
     min-width: 100%;
-    color:#fff;
+    color:#ffff;
 }
 
 .footer {
